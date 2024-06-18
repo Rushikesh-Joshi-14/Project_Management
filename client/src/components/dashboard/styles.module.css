@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main_container{
+	width: 100%;
+	height: 100%;
+	display: flex; 
+	align-items: flex-start;
+	background: #26282c;
+}
+
+.header{
+	display: flex;
+	background-image: url("../assets/pm.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 200px;
+	width: 95%;
+	/* margin-left: 8%; */
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom-left-radius: 100px;
+
+}
+
+.header p {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header img{
+	display: block;
+	margin-right: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+	
+}
+
+.logo{
+	
+		margin: 0 auto;
+		margin-bottom: 20px;
+	
+}
+
+.ProjectInfoContainer{
+	height: 620px;
+	width: 97%;
+	margin-left: 5%;
+	/* border-radius: 20px; */
+	position: absolute;
+	background-color: #ececec;
+	/* box-shadow: 2px 3px 8px black; */
+	top: 159px;
+}
+
+.sideBar{
+	height: 770px;
+	width: 6%;
+	background-color: #26282c;
+	/* box-shadow: 2px 3px 8px black; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.icon{
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.icon hr{
+	color: rgb(39, 38, 38);
+	width: 30px;
+	height: 1px;
+}
+
+.logouticon{
+	position: absolute;
+	bottom: 40px;
+	cursor: pointer;
+}
+
+
+
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.infoElements{
+    width: 240px;
+    height: 90px;
+    border-radius: 7px;
+    background-color: white;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    position: relative;
+    top: -15px;
+    padding-left: 20px;
+    padding-top: 7px;
+    border-left: 7px solid #72858b;
+    
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 4px  rgb(57, 56, 56);
+}
+
+.infoElements p{
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+}
+
+
+.dashboardContainer{
+    
+    position: absolute;
+    top: 250px;
+    left: 140px;
+
+
+}
+
+.infoDivs{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	
+	
+}
+
+.dashboardContainer p{
+    font-size: 22px;
+    /* color: gray; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.mainDashBoard{
+    background-color: white;
+    width: 680px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px  rgb(57, 56, 56);
+    
+}
+
+.departmentCharts{
+	display: flex;
+	width: 100px;
+	flex-direction: row;
+}
+.paginationMain{
+	background-color: aqua;
+	padding: 30px 40px;
+}
+
+.pagination{
+	padding: 10px;
+}
+
+
